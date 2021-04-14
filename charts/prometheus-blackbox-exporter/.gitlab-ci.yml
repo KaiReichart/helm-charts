@@ -1,0 +1,4 @@
+include:
+  project: gkvi/gitlab-ci-lib
+  ref: master
+  file: charts.gitlab-ci.yml

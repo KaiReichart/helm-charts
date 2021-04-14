@@ -1,0 +1,29 @@
+apiVersion: v1
+entries:
+  prometheus-blackbox-exporter:
+  - apiVersion: v1
+    appVersion: 0.18.0
+    created: "2021-04-06T17:04:31.688744745+02:00"
+    description: Prometheus Blackbox Exporter
+    digest: 58c720d0834afde3a68b87cf13c8becf6e96ff983583f53d7a09f494583d948c
+    home: https://github.com/prometheus/blackbox_exporter
+    keywords:
+    - prometheus
+    - blackbox
+    - monitoring
+    maintainers:
+    - email: cedric@desaintmartin.fr
+      name: desaintmartin
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: me@sota.sh
+      name: rsotnychenko
+    - email: monotek23@gmail.com
+      name: monotek
+    name: prometheus-blackbox-exporter
+    sources:
+    - https://github.com/prometheus/blackbox_exporter
+    urls:
+    - prometheus-blackbox-exporter-4.10.0.tgz
+    version: 4.10.0
+generated: "2021-04-06T17:04:31.686847773+02:00"
