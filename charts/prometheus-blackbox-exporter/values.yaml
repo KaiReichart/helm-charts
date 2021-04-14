@@ -225,3 +225,10 @@ networkPolicy:
 ## These will be passed directly to the PodSpec of same.
 dnsPolicy:
 dnsConfig:
+
+## HostAlias will set /etc/hosts entries for the Blackbox exporter Pod
+# hostAliases:
+#   - ip: 1.2.3.4
+#     hostnames:
+#       - example.com
+#       - example2.com
